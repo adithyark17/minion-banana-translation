@@ -6,11 +6,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 #output{
     border: 2px solid black;
     border-radius: 0.5rem;
     height: 10vh;
     width: 20vh;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    
 }
 
 
@@ -18,11 +26,35 @@
     background-color: yellow;
     padding: 1rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .img {
     width: 100%;
     height: auto;
-    padding-top: 0%;
+    border-radius: 10%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+}
+
+#divText{
+    text-align: center;
+    margin: auto;
+    
+}
+
+#btn{
+    padding: 0.5rem;
+    align-items: center;
+}
+
+#video{
+    align-items: center;
+    height: auto;
+}
+
+footer{
+    background-color: yellow;
 }
