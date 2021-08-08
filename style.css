@@ -1,38 +1,37 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-*
-{
+* {
     font-family: 'Roboto', sans-serif;
     padding: 0%;
     margin: 0%;
-    
+
 }
-:root{
+
+:root {
     --primary-color: #FDE047;
-    --secondary-color:#FACC15;
+    --secondary-color: #FACC15;
     --light-yellow: #FEFCE8;
-    --dark-yellow:#854D0E;
-    --output-color:#fdf9c7;
+    --dark-yellow: #854D0E;
+    --output-color: #fdf9c7;
 }
 
 
 
 body {
-  background-color:#FEFCE8;
-  
- 
+    background-color: #FEFCE8;
+
+
 }
 
 
-.header{
+.header {
     background-color: #ffe135;
     padding: 1rem;
     text-align: center;
     margin: auto;
     display: block;
     color: #854D0E;
-   
+
 }
 
 .img {
@@ -45,25 +44,25 @@ body {
 
 }
 
-.divText{
+.divText {
     margin: auto;
     color: #854D0E;
     background-color: #FEFCE8;
 }
 
-#btn{
+#btn {
     padding: 0.5rem;
     margin: auto;
     display: block;
     background-color: var(--secondary-color);
 }
-.bttn{
+
+.bttn {
     height: auto;
     width: 10rem;
 }
 
-textarea
-{
+textarea {
     display: block;
     text-align: left;
     min-height: 6rem;
@@ -73,7 +72,7 @@ textarea
     margin-bottom: 2rem;
 }
 
-#h3{
+#h3 {
     margin: auto;
     text-align: center;
     padding: 1rem;
@@ -86,17 +85,9 @@ textarea
     margin: auto;
     text-align: center;
     padding: 2px
-  }
-  
-  #output{
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    height: 10vh;
-    width: 20vh;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    
 }
+
+
 
 
 .footer {
@@ -105,9 +96,9 @@ textarea
     color: #854D0E;
     border-top-right-radius: 1rem;
     margin-top: 4rem;
-  }
-  
-img{
+}
+
+img {
     padding: 1rem;
     margin: auto;
     width: 50%;
