@@ -83,22 +83,10 @@ textarea
     border: 1px solid black;
     min-height: 15vh;
     width: 60%;
-    margin: auto;
-    text-align: center;
-    padding: 2px
+    margin: 0 auto;
+    text-align: left;
   }
   
-  #output{
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    height: 10vh;
-    width: 20vh;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    
-}
-
-
 
 .footer {
     background-color:;
