@@ -15,7 +15,6 @@ function errorHandler(error){
 }
 
 
-
 function clickEventHandler(){
     var input = txt.value;
 
